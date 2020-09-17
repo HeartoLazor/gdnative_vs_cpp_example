@@ -101,3 +101,6 @@ enc_temp_folder/
 *.psess
 *.vsp
 *.vspx
+
+# Unignore
+!/demo/bin/

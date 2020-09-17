@@ -28,7 +28,7 @@ For vsproj creation based in willnationsdev tutorial https://gist.github.com/wil
 	- Once created, close Visual Studio and copy files inside the new directory to root project folder.
 
 Structure Example:
-project_name
+
 	- .vs (hidden folder)
 	- godot-cpp
 	- lib
@@ -43,15 +43,15 @@ Now open the vs project
 
 Then select project_name project and go to "Project > Properties..." to open the project properties.
 
-(note that for the next step, for things that involve paths, it's advised that you use the "..." button on new entries to create records)
+	(note that for the next step, for things that involve paths, it's advised that you use the "..." button on new entries to create records and after addition, make the path relative, example: C:\Git\godot_dll_test\godot-cpp\include\core > .\godot-cpp\include\core)
 
 Ensure that you are on the x64 Debug or Release configurations at the top and make the following changes...
 
-VC++ Directories > Include Directories. Add 'project_name\godot-cpp\include', 'project_name\godot-cpp\include\gen', 'project_name\godot-cpp\include\core', and 'project_name\godot-cpp\godot_headers' to the list.
-VC++ Directories > Library Directories. Add 'project_name\lib'.
-VC++ Directories > Source Directories. Add 'project_name\src'.
-C/C++ > Linker > System. Subsystem = "Console (/SUBSYSTEM:CONSOLE)"
-C/C++ > Linker > Input. Add "godot-cpp.windows.debug.64.lib" (without quotes) for debug target and "godot-cpp.windows.release.64.lib" for release target to the Additional Dependencies parameter.
+	VC++ Directories > Include Directories. Add 'project_name\godot-cpp\include', 'project_name\godot-cpp\include\gen', 'project_name\godot-cpp\include\core', and 'project_name\godot-cpp\godot_headers' to the list.
+	VC++ Directories > Library Directories. Add 'project_name\lib'.
+	VC++ Directories > Source Directories. Add 'project_name\src'.
+	C/C++ > Linker > System. Subsystem = "Console (/SUBSYSTEM:CONSOLE)"
+	C/C++ > Linker > Input. Add "godot-cpp.windows.debug.64.lib" (without quotes) for debug target and "godot-cpp.windows.release.64.lib" for release target to the Additional Dependencies parameter.
 
 If you already had created src files, drag and drop them in header and source files directories at Visual Studio
 
