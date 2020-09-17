@@ -1,0 +1,103 @@
+build
+zconf.h
+zconf.h.included
+*.o
+*.os
+*.so
+*.dylib
+.import/
+*.dblite
+*.dll
+*.exp
+*.lib
+*.obj
+*.TMP
+logs
+
+*.a
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.bak
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.nib
+
+
+# Windows image file caches
+[Tt]humbs.db
+[Tt]humbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows stackdumps
+*.stackdump
+
+# Windows shortcuts
+*.lnk
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+logo.h
+*.autosave
+
+# Misc
+.DS_Store
+__MACOSX
+logs/
+
+# for projects that use SCons for building: http://http://www.scons.org/
+.sconf_temp
+.sconsign*.dblite
+*.pyc
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+*.debug
+*.dSYM
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+enc_temp_folder/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx

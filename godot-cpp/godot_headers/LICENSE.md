@@ -1,6 +1,6 @@
-MIT License
+# MIT License
 
-Copyright (c) 2018 Bastiaan Olij and 2020 Hearto
+Copyright (c) 2017-2020 GodotNativeTools
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

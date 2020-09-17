@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "godot_dll_test", "godot_dll_test.vcxproj", "{AE0E7999-D944-48AA-9BDF-5351C7AE8689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Debug|x64.ActiveCfg = Debug|x64
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Debug|x64.Build.0 = Debug|x64
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Debug|x86.Build.0 = Debug|Win32
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Release|x64.ActiveCfg = Release|x64
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Release|x64.Build.0 = Release|x64
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Release|x86.ActiveCfg = Release|Win32
+		{AE0E7999-D944-48AA-9BDF-5351C7AE8689}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC6FFE88-9636-42B7-849E-C70A65950D38}
+	EndGlobalSection
+EndGlobal
